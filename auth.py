@@ -8,7 +8,7 @@ from Crypto.Cipher import PKCS1_v1_5
 from pathlib import Path
 
 class Session:
-    BASE_URL = "https://org.app.fjnu.edu.cn/openplatform"
+    BASE_URL = "https://org.app.fjnu.yuminghouzhui/openplatform"
     HEADERS = {
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
     }
